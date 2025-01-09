@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 6(2)</title>
+</head>
+<body>
+    <h1>Activity 6 (2) - Components of Form</h1>
+    <form>
+        <fieldset>
+            <legend><b>LEGEND</b></legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <input type="submit">
+        </fieldset>
+    </form>
+    <br>
+    <h3>Choose your favourite snack: </h3>
+    <form>
+      <fieldset>
+        <input type="radio" name="snack" id="pizza" value="pizza">
+        <label for="pizza">pizza</label>
+        <input type="radio" name="snack" id="pasta" value="pasta">
+        <label for="pasta">pasta</label>
+        <input type="radio" name="snack" id="noodles" value="noodles">
+        <label for="noodles">noodles</label><br>
+        <input type="submit"></fieldset>
+    </form>
+    <br>
+    <h3>Choose your favourite snack: </h3>
+    <form><fieldset>
+      <input type="checkbox" name="snack" id="pizza" value="pizza">
+      <label for="pizza">pizza</label>
+      <input type="checkbox" name="snack" id="pasta" value="pasta">
+      <label for="pasta">pasta</label>
+      <input type="checkbox" name="snack" id="noodles" value="noodles">
+      <label for="noodles">noodles</label><br>
+      <input type="submit"></fieldset>
+    </form>
+    <br>
+    <form><fieldset>
+        <label for="snacks"><b>Choose your favorite snack:</b></label>
+        <select id="snacks" name="snacks">
+          <option value="pizza">pizza</option>
+          <option value="pasta">pasta</option>
+          <option value="noodles">noodles</option>
+        </select>
+        <br>
+        <input type="submit"></fieldset>
+      </form>
+      <br>
+      <form><fieldset>
+        <label for="snacks">Choose favourite snack: </label>
+        <input list="snacks" id="snacks" name="snacks">
+        <datalist id="snacks">
+            <option value="pizza"></option>
+            <option value="pasta"></option>
+            <option value="noodles"></option>
+        </datalist>
+        <input type="submit"></fieldset>
+      </form>
+      <br>
+      <form>
+        <textarea name="snacks" id="snacks" rows="10" cols="30">Write about your favourite snack here int his textbox.</textarea>
+        <br>
+        <input type="submit">
+      </form>
+</body>
+</html>
